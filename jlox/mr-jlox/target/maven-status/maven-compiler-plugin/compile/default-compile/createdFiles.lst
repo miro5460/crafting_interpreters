@@ -1,5 +1,0 @@
-com/craftinginterpreters/tool/GenerateAst.class
-com/craftinginterpreters/lox/Scanner.class
-com/craftinginterpreters/lox/TokenType.class
-com/craftinginterpreters/lox/Token.class
-com/craftinginterpreters/lox/Lox.class
