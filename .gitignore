@@ -1,3 +1,5 @@
-./java_lox
-./jlox/mr-jlox/target
+jlox/.classpath
+jlox/.project
+jlox/.settings
+jlox/target
 *.*~
