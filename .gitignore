@@ -2,5 +2,6 @@ jlox/.classpath
 jlox/.project
 jlox/.settings
 jlox/target
+jlox/mr-jlox
 java_lox
 *.*~
