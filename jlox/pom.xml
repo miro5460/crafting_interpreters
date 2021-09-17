@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.craftinginterpreters.lox</groupId>
-  <artifactId>mr-jlox</artifactId>
+  <artifactId>jlox</artifactId>
   <version>1.0</version>
 
-  <name>mr-jlox</name>
+  <name>jlox</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
