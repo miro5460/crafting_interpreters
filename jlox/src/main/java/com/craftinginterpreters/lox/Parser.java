@@ -82,6 +82,10 @@ class Parser {
     }
 
     private Expr primary() {
+        // TODO something is wrong with matching on FALSE, TRUE, & NIL
+        // strings must have parentheses around them, but those three
+        // values shouldn't require that. Whever I try to put those
+        // into the REPL, it hits the error case.
         if (match(FALSE)) return new Expr.Literal(false);
         if (match(TRUE)) return new Expr.Literal(true);
         if (match(NIL)) return new Expr.Literal(null);
@@ -133,7 +137,7 @@ class Parser {
     }
 
     private Token previous() {
-        return tokens.get(current = 1);
+        return tokens.get(current - 1);
     }
 
     private ParseError error(Token token, String message) {

@@ -17,5 +17,4 @@ enum TokenType {
     PRINT, RETURN, SUPER, THIS, TRUE, VAR, WHILE,
 
     EOF
-
 }
