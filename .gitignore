@@ -5,3 +5,6 @@ jlox/target
 jlox/mr-jlox
 java_lox
 *.*~
+clox/*.*~
+clox/*.lox
+clox/test
