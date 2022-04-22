@@ -7,4 +7,4 @@ java_lox
 *.*~
 clox/*.*~
 clox/*.lox
-clox/test
+clox/test*
